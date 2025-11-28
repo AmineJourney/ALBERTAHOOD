@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "ALBERTA HOOD CLEANING",
+    "slug": "alberta",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/square-image.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/square-image.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.albertahood.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/square-image.png",
+        "backgroundColor": "#000000"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.albertahood.app"
+    },
+    "web": {
+      "favicon": "./assets/images/square-image.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-router",
+      "expo-web-browser"
+    ],
+    "scheme": "natively",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "EXPO_PUBLIC_SUPABASE_URL": "https://zmxbkuirkyjmdyoxppms.supabase.co",
+      "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpteGJrdWlya3lqbWR5b3hwcG1zIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE5MjI3NzcsImV4cCI6MjA3NzQ5ODc3N30.86MqHtH-uuGc9S1zL00_FOpVfv6QQT034gEd-cSmreo",
+      "router": {},
+      "eas": {
+        "projectId": "b8f11612-c4af-4d69-9123-3cddb3ee87a0"
+      }
+    },
+    "owner": "sheeeep"
+  }
+}
